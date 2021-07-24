@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get A Quate</title>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/quate.min.css">
+</head>
+<body>
+    <div class="home-header" id="home">
+        <div class="navbar">
+            <div class="container">
+            <div class="logo">
+                <img class="logo-img" src="/assets/img/logo.png" alt="logo">
+            </div>
+            <div class="nav">
+                <ul class="list">
+                    <li class="list-item"><a class="list-link" href="index.html" target="_blank">home</a></li>
+                    <li class="list-item"><a class="list-link" href="about.html" target="_blank">about</a></li>
+                    <li class="list-item"><a class="list-link" href="menus.html" target="_blank">menus</a></li>
+                    <li class="list-item"><a class="list-link" href="event.html" target="_blank">events</a></li>
+                    <li class="list-item"><a class="list-link" href="quate.html" target="_blank">contact us</a></li>
+                    <li class="list-item"><a class="button-link" href="#"><span class="capital">get</span> a quote</a></li>
+                </ul>               
+            </div>   
+        </div>
+    </div>
+    </div>
+    <div class="contact" id="contact-us">
+        <div class="contact-header">
+            <h2 class="title">
+                <span class="capital">let's</span> make your event something special
+            </h2>
+        </div>
+        <form  method="post" class="contact-form">
+            <div class="container">
+        <div class="inputs-1">
+            <label for="full-name" class="labels">your full name</label><br>
+            <input type="text" id="full-name" placeholder="**********" required class="inputs"/><br>
+            <label for="phone" class="labels">phone</label><br>
+            <input type="tel" id="phone" placeholder="**********" class="inputs"/><br>
+            <label for="date" class="labels">date of event</label><br>
+            <input type="date" id="date" class="inputs"/><br>
+        </div>
+        <div class="inputs-2">
+            <label for="email" class="labels">email</label><br>
+            <input type="email" id="email" placeholder="**********" required class="inputs"/><br>
+            <label for="event-type" class="labels">type of event</label><br>
+            <select name="type of event" id="event-type" class="inputs">
+                <option value="option-one" class="option">nil</option>
+                <option value="option-two" class="option">memorial</option>
+                <option value="option-three" class="option">christmas/ christmas in july</option>
+                <option value="option-four" class="option">engagement parties & weddings</option>
+                <option value="option-five" class="option">burthday parties</option>
+                <option value="option-six" class="option">weddings</option>
+                <option value="option-seven" class="option">corporate meetings / celebration</option>
+                <option value="option-eight" class="option">other</option>
+            </select> <br>
+            <label for="guests" class="labels">how many guests</label><br>
+            <input type="text" placeholder="**" class="inputs"/><br>
+        </div>
+        </div>
+        <label for="message" class="labels">tell us anything extra</label><br>
+        <textarea name="message" id="message" cols="30" rows="10" class="textarea-input" placeholder="message"></textarea>
+        <div class="g-recaptcha" data-sitekey="6Ldbdg0TAAAAAI7KAf72Q6uagbWzWecTeBWmrCpJ"></div>  <!---RECAPTCHA-->
+        <input type="submit" class="button-link">
+    </form>
+    <!-- <input list="type of event">
+    <datalist id="type of event">
+        <option> 
+         <option value="nil">
+         <option value="memorial js">
+         <option value="christmas/ christmas in july">
+         <option value="engagement parties & weddings">
+         <option value="burthday parties"> 
+         <option value="weddings">            
+         <option value="corporate meetings / celebration">
+         <option value="other">
+     </datalist> -->
+    </div>
+    <div class="creator-info">
+        <div class="container">
+        <div class="creator-info-item">
+            <h4 class="title">menus</h4>
+            <ul class="list">
+                <li class="list-item"><a href="#" class="list-link">canapés</a></li>
+                <li class="list-item"><a href="#" class="list-link">starters</a></li>
+                <li class="list-item"><a href="#" class="list-link">mains</a></li>
+                <li class="list-item"><a href="#" class="list-link">deserts</a></li>
+                <li class="list-item"><a href="#" class="list-link">salads</a></li>
+                <li class="list-item"><a href="#" class="list-link">larger stand-up party food</a></li>
+                <li class="list-item"><a href="#" class="list-link">vegan</a></li>
+            </ul>
+        </div>
+        <div class="creator-info-item">
+            <h4 class="title">events</h4>
+            <ul class="list">
+                <li class="list-item"><a href="#" class="list-link">Film & Production</a></li>
+                <li class="list-item"><a href="#" class="list-link">Memorial</a></li>
+                <li class="list-item"><a href="#" class="list-link">Christmas/Christmas in July</a></li>
+                <li class="list-item"><a href="#" class="list-link">Engagement Parties & Weddings</a></li>
+                <li class="list-item"><a href="#" class="list-link">Birthday parties</a></li>
+                <li class="list-item"><a href="#" class="list-link">Corporate Meetings/Celebtrations</a></li>
+            </ul>
+            
+        </div>
+        <div class="creator-info-item">
+            <h4 class="title">jade berger</h4>
+            <div class="jade-info">
+                <img class="jade-photo" src="assets/img/4.png" alt="jade">
+                <a href="#" class="link">“My passion is bringing people together, and with my food, helping them create beautiful memories along the way.”
+                    </a>
+                <a href="#" class="list-link">Meet Jade</a>
+            </div>
+            
+        </div>
+    </div>
+        <hr class="line">
+        <div class="footer" id="footer">
+            <div class="logo">
+                <img class="logo-img" src="/assets/img/logo.png" alt="logo">
+            </div>
+            <div class="socail">
+               <a class="icon" href="https://www.facebook.com/"> <i class="fab fa-facebook"></i></a>
+               <a class="icon" href="https://www.instagram.com/"> <i class="fab fa-instagram-square"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="End">
+    <div class="arrow">
+        <a href="#footer" class="down-link"><i class="fas fa-chevron-down"></i></a>
+        <a href="#home" class="up-link"><i class="fas fa-chevron-up"></i></a>
+    </div>
+        <div class="copyright">&#169; copyright@social-catering</div>
+    
+</div>
+</body>
+</html>
