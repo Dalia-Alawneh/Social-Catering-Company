@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8"> <!--charset=ترمييييز-->
+        <!--<meta http-equiv="refresh" content="2"/>-->
+        <meta name="description" content="As Melbourne’s favourite catering company, we’re famous for crafting exciting menus reflecting your unique event. From traditional favourites to inspired creations, we offer a range of exciting options for just about every event type and budget."/>
+        <meta name="keyword" content="Catering ,Melbourne’s ,budget ,jade" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Social Catering Co</title>
         <script src='https://www.google.com/recaptcha/api.js'></script>
         <link rel="stylesheet" href="assets/css/all.min.css">
         <link rel="stylesheet" href="assets/css/style.min.css">
     </head>
     <body>
-        <div class="home-header" id="home">
-            <div class="navbar">
+        
+            <nav class="navbar">
                 <div class="container">
                 <div class="logo">
-                    <img class="logo-img" src="/assets/img/logo.png" alt="logo">
+                    <img class="logo-img" src="assets/img/logo.png" alt="Social Catering">
                 </div>
                 <div class="nav">
                     <ul class="list">
@@ -29,7 +33,9 @@
                 <a class="button-link" href="#">get a quote</a>
             </div> -->
       
-        </div>
+            </nav>
+        <!--End of Navbar-->
+        <header class="home-header" id="home">
                 <div class="welcome">
                     welcome to our website
                 </div>
@@ -42,13 +48,13 @@
                     </div>                   
                 </div>
         
-            
-        </div>
-        <!--End of home-header-->
+            </header>
+        
+        <!--End of header-->
 
-        <div class="chef" id="about">
+        <section class="chef" id="about">
             <div class="chef-pic">
-                <img class="chef-img" src="assets/img/jade-drinks.jpg" alt="chef picture">
+                <img class="chef-img" src="assets/img/jade-drinks.jpg" alt="Jade">
                 <!--<div class="overlay">
                     <div class="overlay-content">
                     <h2 class="overlay-head">i'm jade</h2>
@@ -62,17 +68,17 @@
                 <h2 class="title">
                    <span class="capital"> “my</span> passion is bringing people together, and with my food, helping them create beautiful memories along the way.”
                 </h2>
-                <h5 class="chef-name">
+                <h3 class="chef-name">
                     jade berger chef and owner
                     social catering co
-               </h5>
+               </h3>
                 <a class="button-link" href="about.html" target="_blank">meet me</a>
             
                 </div>
             </div>
-        </div>
+        </section>
         <!--End of chef-->
-        <div class="experiences"  id="menus">
+        <section class="experiences"  id="menus">
                 <div class="experience-example">
                     <div class="container">
                     <h2 class="title"><span class="capital">delicious</span> experiences that bring people together</h2>
@@ -84,7 +90,7 @@
             <div class="experience-pic">
                 <img class="experience-img" src="assets/img/mexican.jpg" alt="mexican">
             </div>
-        </div>
+        </section>
         <div class="co-events" id="events">
             <div class="event-pic">
                 <img class="event-img" src="assets/img/company-events.jpg" alt="company events">
@@ -102,7 +108,7 @@
     </div>
     <!--End of co-event-->
 
-    <div class="least-Events">
+    <section class="least-Events">
         
         <div class="event-head">
             <h2 class="title">our latest events</h2>
@@ -130,16 +136,16 @@
             <p class="description"><span class="uppercase">nab</span> <span class="capital">mini</span> legends is a campaign promoting NAB’s support of grassroots football in Australia, through its partnership with Auskick. Working with Photographer, Christopher Tovo, the stills shoot catered for adults as well as kids for breakfast, lunch and afternoon tea.</p>
         </div>
     </div>
-    </div>
+    </section>
     <!--End of least Events-->
-    <div class="phone">
+    <section class="phone">
         <div class="phone-number">
             <span class="capital">we</span>
             cater for every budget. <span class="capital">call jade</span> on 0425 789 654
         </div>
-    </div>
+    </section>
     <!--End of phone-->
-    <div class="contact" id="contact-us">
+    <section class="contact" id="contact-us">
         <div class="contact-header">
             <h2 class="title">
                 <span class="capital">let's</span> make your event something special
@@ -150,15 +156,16 @@
         </div>
         <form  method="post" class="contact-form">
             <div class="container">
-        <div class="inputs-1">
+               
+               <div class="inputs-1">
             <label for="full-name" class="labels">your full name</label><br>
             <input type="text" name="full-name" id="full-name" placeholder="**********" required class="inputs"/><br>
             <label for="phone" class="labels">phone</label><br>
             <input type="tel" name="phone" id="phone" placeholder="**********" class="inputs"/><br>
             <label for="date" class="labels">date of event</label><br>
             <input type="date" name="date" id="date" class="inputs"/><br>
-        </div>
-        <div class="inputs-2">
+               </div>
+               <div class="inputs-2">
             <label for="email" class="labels">email</label><br>
             <input type="email" name="email" id="email" placeholder="**********" required class="inputs"/><br>
             <label for="event-type" class="labels">type of event</label><br>
@@ -174,13 +181,18 @@
             </select> <br>
             <label for="guests" class="labels">how many guests</label><br>
             <input type="text" placeholder="**" class="inputs"/><br>
-        </div>
+              </div>
+           
         </div>
         <label for="message" class="labels">tell us anything extra</label><br>
         <textarea name="message" id="message" cols="30" rows="10" class="textarea-input" placeholder="message"></textarea>
         <div class="g-recaptcha" data-sitekey="6Ldbdg0TAAAAAI7KAf72Q6uagbWzWecTeBWmrCpJ"></div>  <!---RECAPTCHA-->
         <input type="submit" value="send" class="button-link">
+    
     </form>
+</section>
+
+
     <!-- <input list="type of event">
     <datalist id="type of event">
         <option> 
@@ -193,13 +205,13 @@
          <option value="corporate meetings / celebration">
          <option value="other">
      </datalist> -->
-    </div>
+    <!--</div>-->
     <!--End of contact-->
     
-    <div class="creator-info">
+    <section class="creator-info">
         <div class="container">
         <div class="creator-info-item">
-            <h4 class="title">menus</h4>
+            <h2 class="title">menus</h2>
             <ul class="list">
                 <li class="list-item"><a href="#" class="list-link">canapés</a></li>
                 <li class="list-item"><a href="#" class="list-link">starters</a></li>
@@ -211,7 +223,7 @@
             </ul>
         </div>
         <div class="creator-info-item">
-            <h4 class="title">events</h4>
+            <h2 class="title">events</h2>
             <ul class="list">
                 <li class="list-item"><a href="#" class="list-link">Film & Production</a></li>
                 <li class="list-item"><a href="#" class="list-link">Memorial</a></li>
@@ -223,34 +235,34 @@
             
         </div>
         <div class="creator-info-item">
-            <h4 class="title">jade berger</h4>
+            <h2 class="title">jade berger</h2>
             <div class="jade-info">
                 <img class="jade-photo" src="assets/img/4.png" alt="jade">
-                <a href="#" class="link">“My passion is bringing people together, and with my food, helping them create beautiful memories along the way.”
-                    </a>
-                <a href="#" class="list-link">Meet Jade</a>
+                <p class="description">“My passion is bringing people together, and with my food, helping them create beautiful memories along the way.”
+                    </p>
+                
             </div>
-            
+            <a href="#" class="list-link">Meet Jade</a>
         </div>
     </div>
         <hr class="line">
         <div class="footer" id="footer">
             <div class="logo">
-                <img class="logo-img" src="/assets/img/logo.png" alt="logo">
+                <img class="logo-img" src="assets/img/logo.png" alt="Social Catering">
             </div>
             <div class="socail">
                <a class="icon" href="https://www.facebook.com/"> <i class="fab fa-facebook"></i></a>
                <a class="icon" href="https://www.instagram.com/"> <i class="fab fa-instagram-square"></i></a>
             </div>
         </div>
-    </div>
-    <div class="End">
+    </section>
+    <footer class="End">
     <div class="arrow">
         <a href="#footer" class="down-link"><i class="fas fa-chevron-down"></i></a>
         <a href="#home" class="up-link"><i class="fas fa-chevron-up"></i></a>
     </div>
-        <div class="copyright">&#169; copyright@social-catering</div>
+        <div class="copyright">copyright &#169; social-catering</div>
     
-</div>
+</footer>
     </body>
 </html>
